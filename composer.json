@@ -1,0 +1,13 @@
+{
+    "name": "vvi/php-cs-fixer",
+    "authors": [
+        {
+            "name": "Vitaly Volovodenko",
+            "email": "vvolovodenko@smartcats.pro"
+        }
+    ],
+    "require": {
+        "friendsofphp/php-cs-fixer": "^2.18",
+        "kubawerlos/php-cs-fixer-custom-fixers": "^2.4"
+    }
+}
