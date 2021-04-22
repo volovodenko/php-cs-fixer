@@ -117,4 +117,9 @@ return PhpCsFixer\Config::create()
     ])
     //->setIndent("    ")
     //->setLineEnding("\n")
+    ->setFinder(
+        PhpCsFixer\Finder::create()
+            ->exclude(['vendor'])
+            ->in(__DIR__)
+    )
 ;
