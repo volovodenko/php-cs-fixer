@@ -1,5 +1,7 @@
 <?php
 
+require_once __DIR__ . '/vendor/autoload.php';
+
 $finder = PhpCsFixer\Finder::create()
     ->exclude(['vendor'])
     ->in(__DIR__);
@@ -61,7 +63,7 @@ return $config
         'no_trailing_comma_in_singleline_array' => true,
         'trim_array_spaces'                     => true,
 
-        'declare_equal_normalize'      => ['space' => 'single'],
+        'declare_equal_normalize'      => true,
         'unary_operator_spaces'        => true,
         'simplified_if_return'         => true,
         'combine_consecutive_issets'   => true,
